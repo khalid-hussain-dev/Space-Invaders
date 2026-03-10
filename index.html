@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" type="image/png" href="logo.png" />
+  <title>Space Invaders</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <img src="logo.png" alt="Space Invaders Logo" id="game-logo" />
+  <div id="scoreboard">
+    <span id="score">Score: 0</span>
+    <span id="highscore">High Score: 0</span>
+  </div>
+  <div id="game">
+  <div id="no-go-zone"></div>
+  <div id="player"></div>
+  <button id="pause-btn">
+    <img src="pause_btn.png" alt="Pause" />
+  </button>
+  <div id="lives-container">
+  	<span id="lives">Lives: 3</span>
+  </div>
+  
+
+</div>	
+  <!-- Pause Modal -->
+<div id="pause-modal">
+  <div class="modal-content">
+    <h2>Paused</h2>
+    <button id="resume">Resume</button>
+    <button id="pause-restart">Restart</button>
+  </div>
+</div>
+
+  <!-- Modal -->
+  <div id="modal">
+    <div class="modal-content">
+      <h2 id="modal-message">You Win!</h2>
+      <button id="play-again">Play Again</button>
+      <button id="restart">Restart</button>
+    </div>
+  </div>
+
+  <div id="connect-sidebar" class="collapsed">
+  <div id="connect-toggle">
+    <span class="connect-c">C</span>
+    <span class="connect-rest">onnect with the Developer:</span>
+  </div>
+  <div id="connect-content">
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/khalid-hussain-b6276429b/" target="_blank">
+        <img src="linkedin.png" alt="LinkedIn" />
+        <span>LinkedIn</span>
+      </a>
+      <a href="mailto:sheikhkhalidhussain1234@gmail.com">
+        <img src="email.png" alt="Email" />
+        <span>Email</span>
+      </a>
+      <a href="https://www.facebook.com/profile.php?id=100011434244145" target="_blank">
+        <img src="facebook.png" alt="Facebook" />
+        <span>Facebook</span>
+      </a>
+      <a href="https://www.instagram.com/sheikh_khalid_hussain?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+        <img src="instagram.jpeg" alt="Instagram" />
+        <span>Instagram</span>
+      </a>
+      <a href="https://13dimensions.co" target="_blank">
+        <img src="web.jpeg" alt="Website" />
+        <span>Website</span>
+      </a>
+      <a href="https://wa.me/+923322425697" target="_blank">
+        <img src="WA.jpeg" alt="WhatsApp" />
+        <span>WhatsApp</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+	
+  <script src="script.js"></script>
+	
+</body>
+</html>
